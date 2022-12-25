@@ -70,6 +70,8 @@ button:hover{
     background-color: transparent;
     color: hsl(0,0%,95%);
 }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 @media (max-width:375px) {
     .items{
         flex-direction: column;
@@ -77,6 +79,5 @@ button:hover{
     }
     .item{
         min-width: none;
-    }
-    
+    }   
 }
